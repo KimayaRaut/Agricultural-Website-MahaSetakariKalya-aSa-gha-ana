@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/*<!-- ***********************************************Header************************************************** -->*/
+
+#title{
+font-family: 'Elephant';
+font-size: 30px;
+color: #016DB9;
+}
+
+#navbarNav{
+	margin-left: 40%;
+}
+
+.nav-item .active{
+  color: #F99910;
+}
+/*<!-- ***********************************************End Header************************************************** -->*/
+
+/************************************************Marquee***************************************************/
+#fmarquee{
+	border: solid 2px #DA685C;
+	color: #DA685C;
+}
+/************************************************End Marquee***************************************************/
+
+/****************************************************card layout********************************************* */
+#CardLayout{
+  margin-left: 5%;
+  position: absolute;
+
+}
+#card_sub{
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+/**************************************************** end card layout********************************************* */
+
+/************************************************Page Tab*********************************************  */
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  /*height: 65%;*/
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  /*border: none;*/
+}
+
+
+#Home {background-color: #DA685C;}
+#News {background-color: #35B367;}
+#Contact {background-color: #016DB9;}
+#About {background-color: #F99910;}
+
+
+
+
+/************************************************End Page Tab*********************************************  */
+
+/*************************************************Collapse Nav**********************************************/
+#collaps_nav{
+  background-color: #DA685C;
+}
+
+#collaps_nav_sub{
+}
+#collaps_nav_sub div{
+  background-color: white;
+  width: 16.4%;
+}
+
+/************************************************* End Collapse Nav*****************************************/
+
+/******************************************************Note***********************************************/
+#note{
+  background-color:#D46411;
+  color: white;
+}
+/****************************************************** End Note***********************************************/
+
+
+/*************************************************Footer**********************************************/
+#footer{
+  /*margin-top: 20%;*/
+  background-color: #4F4F4F;
+  height: 50%;
+  text-align: center;
+  color: white;
+}
+#footer_news{
+  margin-top: 20%;
+  background-color: #4F4F4F;
+  height: 50%;
+  text-align: center;
+  color: white;
+}
+
+/*************************************************End Footer******************************************/
+
+/**********************************************@media**********************************************/
+@media screen and (max-width: 600px) {
+  #title {
+    font-size: 13px;
+  }
+  #footer_news{
+    margin-top: 340%;
+  }
+
+  #collaps_nav{
+    display: none;
+  }
+
+}
+/********************************************** End @media***********************************************/
